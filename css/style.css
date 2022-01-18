@@ -63,6 +63,7 @@ body{
     padding: 10px 15px;
     font-size: 1.2rem;
     transition: .3s ease-in-out;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.274);
 }
 .nav__cta-link:hover{
     color: black;
@@ -71,6 +72,8 @@ body{
 /* Painel cta */
 .section__cta{
     background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.274);
+
 }
 .section__cta .container{
     display: flex;
@@ -92,6 +95,36 @@ body{
 }
 .cta__imagem img{
     max-width: 100%;
+}
+
+/* depoimento */
+.section__depoimento{
+    padding: 30px 0;
+}
+.section__depoimento .container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.depoimento__single{
+    background-color: white;
+    background-image: url(../images/quote.png);
+    background-size: 50px 50px;
+    background-position: right top;
+    background-repeat: no-repeat;
+    flex: 1 1 45%;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.274);
+}
+.depoimento__single p{
+    /* font-weight: lighter; */
+    font-size: .9rem;
+    margin-bottom: .5rem;
+}
+.depoimento__single span{
+    color: #30851d;
+    font-weight: lighter;
 }
 
 @media screen and (max-width: 1000px){
