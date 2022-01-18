@@ -67,3 +67,36 @@ body{
 .nav__cta-link:hover{
     color: black;
 }
+
+/* Painel cta */
+.section__cta{
+    background-color: white;
+}
+.section__cta .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cta__content{
+    max-width: 500px;
+    color: #11223f;
+}
+.cta__content h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.cta__content p{
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+.cta__imagem img{
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1000px){
+    .cta__content{
+        padding: 10px 0;
+        text-align: center;
+    }
+}
